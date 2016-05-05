@@ -52,7 +52,7 @@ def chen():
 
     return int(ceil(score))
 
-
+# 6-handed table
 def move_six(score):
 
     # Early position - SB BB UTG
@@ -74,7 +74,7 @@ def move_six(score):
         else:
             return 'fold'
 
-
+# 9-handed table
 def move_nine(score):
 
     if score >= 12:
