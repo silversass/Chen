@@ -100,13 +100,6 @@ def move_nine(score):
         else:
             return 'fold'
 
-
-def preflop_move(score, pos):
-
-    if score >= score:
-        pass
-
-
 score = chen()
 print "Hand: %s\nScore: %d\nPosition: %d" % (hand, score, position)
 print "Move: %s" % move_nine(score)
